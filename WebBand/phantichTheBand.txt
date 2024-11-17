@@ -1,0 +1,16 @@
+Phân tích project : 
+1. Phân tích => completed
+    1. Header 
+    2. Slider
+    3. Content
+        a.About
+        b.Schedule Perform
+        c.Contact
+        d.Image
+        e.Footer
+    4. Footer
+2. Dựng base 
+3. Xây dựng từng thành phần 
+4. Hoàn thiện 
+
+

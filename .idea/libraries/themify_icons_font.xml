@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="themify-icons-font">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WebBand/assets/font/themify-icons-font.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
