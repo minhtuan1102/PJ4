@@ -79,7 +79,7 @@
                                 <h3 class="place-heading">Geneva</h3>
                                 <p class="place-time">Fri 27 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitea justo. </p>
-                                <button class="place-buy-btn">Buy Tickets</button>
+                                <button class="btn">Buy Tickets</button>
                             </div>
                         </div>
                         <div class="col col-third">
@@ -88,7 +88,7 @@
                                 <h3 class="place-heading">Paris</h3>
                                 <p class="place-time">Fri 27 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitea justo. </p>
-                                <button class="place-buy-btn">Buy Tickets</button>
+                                <button class="btn">Buy Tickets</button>
                             </div>
                         </div>
                         <div class="col col-third">
@@ -97,29 +97,58 @@
                                 <h3 class="place-heading">Viet Nam</h3>
                                 <p class="place-time">Fri 27 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitea justo. </p>
-                                <button class="place-buy-btn">Buy Tickets</button>
+                                <button class="btn">Buy Tickets</button>
                             </div>
                         </div>
                     <div class="clear"></div>
                 </div>
              </div>
         </div>
-        <!-- Contact section -->
-        <div class="content-section">
+        <!-- Begin: Contact section -->
+        <div class="content-section"> 
             <h2 class="section-heading">Contact</h2>
             <p class="section-sub-heading">Drop a note!</p>
-            <div class="row">
-                <div class="col-half">
-                    <p><i class="ti-location-pin"></i>Geneva, switzerland</p>
-                    <p><i class="ti-mobile"></i>Phone: +84384182208</p>
-                    <p><i class="ti-email"></i>Email: @gmail.com</p>
+            <div class="row contact-content">
+                <div class="col col-half contact-info">
+                    <p><i class="ti-location-pin"></i> Geneva, Switzerland</p>
+                    <p><i class="ti-mobile"></i> Phone: +84384182208</p>
+                    <p><i class="ti-email"></i> Email: motorshow@gmail.com</p>
 
                 </div>
-                <div class="col-half"></div>
+                <div class="col col-half contact-form">
+                    <form action="">
+                        <div class="row">
+                            <div class="col col-half">
+                                <input type="text" name="" id="" required placeholder="Name" class="form-control">
+                            </div>
+                            <div class="col col-half">
+                                <input type="email" name="" id="" required placeholder="Email" class="form-control">
+                            </div>
+                        </div> 
+                        <div class="row mt-8">
+                            <div class="col col-full">
+                                <input type="text" name="" id="" required placeholder="Message" class="form-control">
+                            </div>
+                        </div>
+                        <input class="btn pull-right mt-16" type="submit" value="SEND">
+                    </form>
+                </div>
             </div>
         </div>
+        <!-- End: Contact section -->
+        <div class="map-section">
+            <img src="./assets/img/places/antony.jpg" alt="">
+        </div>
         <div id="footer">
-
+            <div class="socials-lists">
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-twitter"></i></a>
+                <a href=""><i class="ti-github"></i></a>
+                <a href=""><i class="ti-linkedin"></i></a>
+                <a href=""><i class="ti-pinterest"></i></a>
+            </div>
+            <p class="copyright">Powered by <a href="">w3.css</a></p>
         </div>
     </div>
     <div class="modal js-modal">
@@ -156,7 +185,7 @@
         </div>
     </div>
     <script>
-        const buyBtns = document.querySelectorAll('.place-buy-btn')
+        const buyBtns = document.querySelectorAll('.btn')
         const modal = document.querySelector('.modal')
         const modalclose = document.querySelector('.js-modal-close')
         const modalcontainer = document.querySelector('.js-container')

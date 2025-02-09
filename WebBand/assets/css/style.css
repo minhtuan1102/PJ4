@@ -31,7 +31,17 @@ html{
     margin-left: -8px;
     margin-right: -8px;
 }
-
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.mt-8{
+    margin-top: 8px !important;
+}
+.mt-16{
+    margin-top: 16px !important;
+}
 .col{
     float: left;
     padding-left: 8px;
@@ -237,19 +247,24 @@ html{
     margin-top: 15px;
     line-height: 1.4;
 }
-.place-buy-btn{
+.btn{
     color: #fff;
     background-color: #000;
     text-decoration: none;
     padding: 11px 16px;
     display: inline-block;
     margin-top: 15px;
-}.place-buy-btn:hover{
+    border: none;
+}.btn:hover{
+    cursor: pointer;
     color: #000;
     background-color: #ccc;
 }
 #footer{
 
+}
+.pull-right{
+    float: right !important;
 }
 .modal{
     position: fixed;
@@ -344,4 +359,54 @@ html{
         transform: translateY(0);
         opacity: 1;
     }
+}
+.col-full{
+    width: 100%;
+}
+.contact-content{
+    margin-top: 48px;
+}
+.contact-info{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.contact-info i[class*="ti-"]{
+    width: 30px;
+    display: inline-block;
+}
+.contact-form{
+    font-size: 15px;
+}
+.contact-form .form-control{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* Map section*/
+.map-section img{
+    width: 100%;
+}
+#footer{
+    padding: 64px 16px;
+    text-align: center;
+}
+#footer .socials-lists{
+    font-size: 24px;
+
+}
+#footer .socials-lists a{
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+#footer .socials-lists a:hover{
+    color: rgba(0, 0, 0, 0,4);
+}
+#footer .copyright{
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+#footer .copyright a{
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
 }
